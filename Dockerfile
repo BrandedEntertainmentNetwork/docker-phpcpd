@@ -1,5 +1,5 @@
-FROM php:7.1-cli
-LABEL version "1.0"
+FROM php:7-cli
+LABEL version "1.1"
 LABEL description "PHP Copy/Paste Detector."
 
 WORKDIR /opt
