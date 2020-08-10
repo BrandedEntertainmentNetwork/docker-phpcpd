@@ -8,6 +8,6 @@ To run against your project, mount the path as a volume and point the image to i
 ```sh
 docker run -it --name phpcpd-cli --rm \
 --volume=/path/to/php-project:/php-project \
-odlevakp/phpcpd /php-project
+bengroup/phpcpd /php-project
 
 ```
